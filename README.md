@@ -4,7 +4,7 @@ A modern, interactive portfolio website built with Next.js 15, TypeScript, Tailw
 
 ## 🚀 Live Demo
 
-Visit the live website: [https://nrenx.github.io/portfilio/](https://nrenx.github.io/portfilio/)
+Visit the live website: [https://nrenx.github.io/portfolio/](https://nrenx.github.io/portfolio/)
 
 ## ✨ Features
 
@@ -37,8 +37,8 @@ Visit the live website: [https://nrenx.github.io/portfilio/](https://nrenx.githu
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/nrenx/portfilio.git
-cd portfilio
+git clone https://github.com/nrenx/portfolio.git
+cd portfolio
 ```
 
 2. Install dependencies:
@@ -79,7 +79,7 @@ This project is configured for automatic deployment to GitHub Pages using GitHub
 
 4. **Push to main branch**:
    - The GitHub Action will automatically build and deploy your site
-   - Your site will be available at `https://yourusername.github.io/portfilio/`
+   - Your site will be available at `https://yourusername.github.io/portfolio/`
 
 ### Manual Deployment
 
@@ -130,7 +130,7 @@ Update the following files with your information:
 
 ### GitHub Pages Configuration
 
-If your repository name is different from "portfilio":
+If your repository name is different from "portfolio":
 
 1. Update `basePath` and `assetPrefix` in `next.config.ts`
 2. Update the `getAssetPath` function in `src/lib/utils.ts`

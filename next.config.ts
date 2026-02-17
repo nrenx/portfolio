@@ -13,10 +13,10 @@ const nextConfig: NextConfig = {
   },
 
   // Set base path for GitHub Pages (repository name)
-  basePath: isProd && isGithubPages ? '/portfilio' : '',
+  basePath: isProd && isGithubPages ? '/portfolio' : '',
 
   // Set asset prefix for GitHub Pages
-  assetPrefix: isProd && isGithubPages ? '/portfilio' : '',
+  assetPrefix: isProd && isGithubPages ? '/portfolio' : '',
 
   // Enable experimental features
   experimental: {

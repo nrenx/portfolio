@@ -164,8 +164,8 @@ export const projects: Project[] = [
       'Responsive design',
       'Contact form with validation'
     ],
-    githubUrl: 'https://github.com/nrenx/portfilio.git',
-    liveUrl: 'https://nrenx.github.io/portfilio/',
+    githubUrl: 'https://github.com/nrenx/portfolio.git',
+    liveUrl: 'https://nrenx.github.io/portfolio/',
     imageUrl: getAssetPath('/assets/images/projects/portfolio.jpg'),
     category: 'web',
     status: 'completed',

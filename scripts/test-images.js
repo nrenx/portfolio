@@ -7,7 +7,7 @@
 const https = require('https');
 const http = require('http');
 
-const baseUrl = 'https://nrenx.github.io/portfilio';
+const baseUrl = 'https://nrenx.github.io/portfolio';
 
 const imagePaths = [
   '/assets/images/Finding joy in the simplicity of the sea ............beach bridge ocean smile sunny monument collage sunset sunrise travelphotography travel.jpg',

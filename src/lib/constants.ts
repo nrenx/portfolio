@@ -6,7 +6,7 @@ export const APP_CONFIG = {
   version: '2.0.0',
   environment: process.env.NODE_ENV as 'development' | 'staging' | 'production',
   baseUrl: process.env.NODE_ENV === 'production'
-    ? 'https://nrenx.github.io/portfilio'
+    ? 'https://nrenx.github.io/portfolio'
     : process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000',
 } as const;
 

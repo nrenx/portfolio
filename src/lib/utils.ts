@@ -12,7 +12,7 @@ export function getAssetPath(path: string): string {
   const isProduction = process.env.NODE_ENV === 'production';
 
   // For GitHub Pages, we need the repository name as base path
-  const basePath = isProduction && isGithubPages ? '/portfilio' : '';
+  const basePath = isProduction && isGithubPages ? '/portfolio' : '';
 
   // Remove leading slash if present to avoid double slashes
   const cleanPath = path.startsWith('/') ? path.slice(1) : path;
@@ -29,7 +29,7 @@ export function getRuntimeAssetPath(path: string): string {
 
   // Client-side: check actual hostname
   const isGithubPages = window.location.hostname === 'nrenx.github.io';
-  const basePath = isGithubPages ? '/portfilio' : '';
+  const basePath = isGithubPages ? '/portfolio' : '';
 
   const cleanPath = path.startsWith('/') ? path.slice(1) : path;
   return basePath ? `${basePath}/${cleanPath}` : `/${cleanPath}`;
